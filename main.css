@@ -1,3 +1,44 @@
 body {
-    background-color: #eeeeee;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
 }
+.card {
+    display: flexbox;
+    box-shadow: 2px 2px 2px 2px;
+    min-height: 500px ;
+    max-width:300px ;
+    float: left;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px, 10px;
+
+}
+.card h2
+{
+    border: 1px;
+    border-style: dotted;
+    border-color: lightblue;
+    text-align: center;
+    display: block;
+}
+.desc {
+    text-align: justify;
+}
+.size {
+    font-weight: bold;
+}
+.weight {
+    font-weight: bold;
+}
+.details {
+    font-weight: bold;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  } 
